@@ -19,12 +19,20 @@
 }
 
 - (void)commonInit {
+	self.bounds = CGRectMake(0, 0, 260, 46.5);
+
 	self.buttonshadowView = [UIView new];
+	self.buttonshadowView.frame = CGRectMake(0, 3.5, 260, 43);
+	self.buttonshadowView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleBottomMargin;
+
 	self.buttonshadowView.layer.cornerRadius = 15;
 	self.buttonshadowView.backgroundColor = [UIColor colorWithRed:0.831 green:0.472 blue:0.297 alpha:1];
 	[self addSubview:self.buttonshadowView];
 
 	self.buttonView = [UIView new];
+	self.buttonView.frame = CGRectMake(0, 0, 260, 43);
+	self.buttonView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleBottomMargin;
+
 	self.buttonView.layer.cornerRadius = 15;
 	self.buttonView.backgroundColor = [UIColor colorWithRed:0.984 green:0.557 blue:0.349 alpha:1];
 	[self addSubview:self.buttonView];
@@ -34,24 +42,11 @@
 	self.loginLabel.textColor = [UIColor colorWithRed:1 green:1 blue:1 alpha:1];
 	self.loginLabel.font = [UIFont fontWithName:@"ArialMT" size:18];
 	self.loginText = NSLocalizedString(@"LOGIN",nil);
-	[self addSubview:self.loginLabel];
-
-}
-
-- (void)layoutSubviews {
-	CGRect originalFrame = self.frame;
-	self.bounds = CGRectMake(0, 0, 260, 46.5);
-
-	self.buttonshadowView.frame = CGRectMake(0, 3.5, 260, 43);
-	self.buttonshadowView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleBottomMargin;
-
-	self.buttonView.frame = CGRectMake(0, 0, 260, 43);
-	self.buttonView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleBottomMargin;
-
-	self.loginLabel.frame = CGRectMake(0, 8.5, 257, 27.5);
+	self.loginLabel.frame = CGRectMake(0, 12, 257, 20);
 	self.loginLabel.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleBottomMargin;
 
-	self.frame = originalFrame;
+	[self addSubview:self.loginLabel];
+
 }
 
 # pragma mark text properties

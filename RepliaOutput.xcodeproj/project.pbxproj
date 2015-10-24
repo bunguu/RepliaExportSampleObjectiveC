@@ -9,10 +9,10 @@
 /* Begin PBXBuildFile section */
 		5D5E01EE1ABC4DA400DF6E8D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D5E01ED1ABC4DA400DF6E8D /* main.m */; };
 		5D5E01F11ABC4DA400DF6E8D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D5E01F01ABC4DA400DF6E8D /* AppDelegate.m */; };
-		181E22B5AA1F49FB8C9ACD25 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F823A883844C98812243DF /* MyViewController.m */; };
-		9FB78DBBA18C46DD84E05C1C /* LoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF85C4FD1304EC79FDA9784 /* LoginView.m */; };
-		C85970CDB98A44079CA2BF6B /* PasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7491F543CFF043A4BA8534AB /* PasswordView.m */; };
-		354B76B97B9E4FE5B5CFC7FA /* EmailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E01FD4FF2C54CF8954253CB /* EmailView.m */; };
+		FA52E20DB53D428DA8E198C7 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2CA0AD69D246DDB39386F6 /* MyViewController.m */; };
+		0B6527B8C6AA4529A3BDB87F /* LoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 504B698A0D494B7FAEADE31A /* LoginView.m */; };
+		3E37F032FAD8419F8ED3D8BB /* PasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F3DD0BEACC4868BD2C9949 /* PasswordView.m */; };
+		888F0FDE829848DF94A8FE05 /* EmailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D94EA3763EB4D42A01ED4BF /* EmailView.m */; };
 //build		[ReplicotReferenceID2] /* [ReplicotFilePath] in Sources */ = {isa = PBXBuildFile; fileRef = [ReplicotReferenceID] /* [ReplicotFilePath] */; };
 		5D5E01F71ABC4DA400DF6E8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D5E01F51ABC4DA400DF6E8D /* Main.storyboard */; };
 		5D5E01F91ABC4DA400DF6E8D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D5E01F81ABC4DA400DF6E8D /* Images.xcassets */; };
@@ -25,14 +25,14 @@
 		5D5E01ED1ABC4DA400DF6E8D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5D5E01EF1ABC4DA400DF6E8D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5D5E01F01ABC4DA400DF6E8D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B352BD65DB8B49FC8100D6F0 /* MyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
-		17F823A883844C98812243DF /* MyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
-		A80A2E175505496D9EB5099E /* LoginView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginView.h; sourceTree = "<group>"; };
-		0EF85C4FD1304EC79FDA9784 /* LoginView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginView.m; sourceTree = "<group>"; };
-		AB3048752C544827A38984BF /* PasswordView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PasswordView.h; sourceTree = "<group>"; };
-		7491F543CFF043A4BA8534AB /* PasswordView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PasswordView.m; sourceTree = "<group>"; };
-		BDA311FCEE904D12B2BB623D /* EmailView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmailView.h; sourceTree = "<group>"; };
-		1E01FD4FF2C54CF8954253CB /* EmailView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmailView.m; sourceTree = "<group>"; };
+		15B7001E49C34EC0A11BA67E /* MyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		CB2CA0AD69D246DDB39386F6 /* MyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
+		643C7AD77F4D4869BFB1E2B5 /* LoginView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginView.h; sourceTree = "<group>"; };
+		504B698A0D494B7FAEADE31A /* LoginView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginView.m; sourceTree = "<group>"; };
+		AFE1DFEF955546BAB93AF6C6 /* PasswordView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PasswordView.h; sourceTree = "<group>"; };
+		13F3DD0BEACC4868BD2C9949 /* PasswordView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PasswordView.m; sourceTree = "<group>"; };
+		F2A43CB868944AE98001F32A /* EmailView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmailView.h; sourceTree = "<group>"; };
+		7D94EA3763EB4D42A01ED4BF /* EmailView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmailView.m; sourceTree = "<group>"; };
 //file		[ReplicotReferenceID] /* [ReplicotFilePath] */ = {isa = PBXFileReference; lastKnownFileType = [ReplicotLastKnownFileType]; path = [ReplicotFilePath]; sourceTree = "<group>"; };
 //		[ReplicotReferenceID] /* [ReplicotFilePath] */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = [ReplicotFilePath]; sourceTree = "<group>"; };
 //		[ReplicotReferenceID.m] /* ObjcViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjcViewController.m; sourceTree = "<group>"; };
@@ -73,14 +73,14 @@
 			children = (
 				5D5E01EF1ABC4DA400DF6E8D /* AppDelegate.h */,
 				5D5E01F01ABC4DA400DF6E8D /* AppDelegate.m */,
-				B352BD65DB8B49FC8100D6F0 /* MyViewController.h */,
-				17F823A883844C98812243DF /* MyViewController.m */,
-				A80A2E175505496D9EB5099E /* LoginView.h */,
-				0EF85C4FD1304EC79FDA9784 /* LoginView.m */,
-				AB3048752C544827A38984BF /* PasswordView.h */,
-				7491F543CFF043A4BA8534AB /* PasswordView.m */,
-				BDA311FCEE904D12B2BB623D /* EmailView.h */,
-				1E01FD4FF2C54CF8954253CB /* EmailView.m */,
+				15B7001E49C34EC0A11BA67E /* MyViewController.h */,
+				CB2CA0AD69D246DDB39386F6 /* MyViewController.m */,
+				643C7AD77F4D4869BFB1E2B5 /* LoginView.h */,
+				504B698A0D494B7FAEADE31A /* LoginView.m */,
+				AFE1DFEF955546BAB93AF6C6 /* PasswordView.h */,
+				13F3DD0BEACC4868BD2C9949 /* PasswordView.m */,
+				F2A43CB868944AE98001F32A /* EmailView.h */,
+				7D94EA3763EB4D42A01ED4BF /* EmailView.m */,
 //file				[ReplicotReferenceID] /* [ReplicotFilePath] */,
 //\n				[ReplicotReferenceID.m] /* ObjcViewController.m */,
 				5D5E01F51ABC4DA400DF6E8D /* Main.storyboard */,
@@ -126,6 +126,8 @@
 		5D5E01E01ABC4DA400DF6E8D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0620;
 				ORGANIZATIONNAME = example;
 				TargetAttributes = {
@@ -170,10 +172,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				181E22B5AA1F49FB8C9ACD25 /* ObjcViewController.m in Sources */,
-				9FB78DBBA18C46DD84E05C1C /* ObjcViewController.m in Sources */,
-				C85970CDB98A44079CA2BF6B /* ObjcViewController.m in Sources */,
-				354B76B97B9E4FE5B5CFC7FA /* ObjcViewController.m in Sources */,
+				FA52E20DB53D428DA8E198C7 /* ObjcViewController.m in Sources */,
+				0B6527B8C6AA4529A3BDB87F /* ObjcViewController.m in Sources */,
+				3E37F032FAD8419F8ED3D8BB /* ObjcViewController.m in Sources */,
+				888F0FDE829848DF94A8FE05 /* ObjcViewController.m in Sources */,
 //build				[ReplicotReferenceID2] /* ObjcViewController.m in Sources */,
 				5D5E01F11ABC4DA400DF6E8D /* AppDelegate.m in Sources */,
 				5D5E01EE1ABC4DA400DF6E8D /* main.m in Sources */,

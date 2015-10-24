@@ -20,7 +20,7 @@
 	self.contentView.frame = CGRectMake(0, 0, 320, 568);
 	self.contentView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleBottomMargin;
 
-	self.contentView.backgroundColor = [UIColor lightGrayColor];
+	self.contentView.backgroundColor = [UIColor whiteColor];
 	[self.scrollView addSubview:self.contentView];
 
 	self.bgImageView = [UIImageView new];
@@ -40,7 +40,7 @@
 	self.catgroupImageView = [UIImageView new];
 	self.catgroupImageView.image = [UIImage imageNamed:@"catgroup"];
 	self.catgroupImageView.frame = CGRectMake(150.5, 394, 164.5, 162);
-	self.catgroupImageView.autoresizingMask = UIViewAutoresizingFlexibleLeftMargin | UIViewAutoresizingFlexibleBottomMargin;
+	self.catgroupImageView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleBottomMargin;
 
 	[self.contentView addSubview:self.catgroupImageView];
 
@@ -73,7 +73,7 @@
 	self.gIngLabel.textColor = [UIColor colorWithRed:0.2 green:0.2 blue:0.2 alpha:1];
 	self.gIngLabel.font = [UIFont fontWithName:@"Avenir-Roman" size:32];
 	self.gIngLabel.text = NSLocalizedString(@"G-ing",nil);
-	self.gIngLabel.frame = CGRectMake(0, 173.5, 318, 67.5);
+	self.gIngLabel.frame = CGRectMake(0, 185, 318, 44);
 	self.gIngLabel.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleBottomMargin;
 
 	[self.contentView addSubview:self.gIngLabel];
